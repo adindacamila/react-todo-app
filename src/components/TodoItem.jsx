@@ -54,7 +54,7 @@ const TodoItem = ({ todo, toggleCompleted, deleteTodo, editTodo }) => {
 const styles = {
   todoItem: {
     border: '2px solid #f4f4f4',
-    fontSize: '16px',
+    fontSize: '20px',
     fontFamily: 'Times New Roman', 
     display: 'flex',
     justifyContent: 'space-between',
@@ -76,11 +76,11 @@ const styles = {
     borderRadius: '5px',
     border: 'none',
     cursor: 'pointer',
-    fontSize: '16px',
+    fontSize: '20px',
     fontFamily: 'Times New Roman', 
   },
   editInput: {
-    fontSize: '16px',
+    fontSize: '20px',
     fontFamily: 'Times New Roman', 
     padding: '5px',
     width: '70%',

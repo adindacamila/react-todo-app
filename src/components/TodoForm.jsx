@@ -45,7 +45,7 @@ const styles = {
   formInput: {
     height: '40px',
     width: '30%',
-    fontSize: '16px',
+    fontSize: '20px',
     fontFamily: 'Times New Roman', 
     padding: '0 16px',
     marginRight:'10px',
