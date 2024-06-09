@@ -86,7 +86,7 @@ const styles = {
     flexDirection: 'column',
     margin: '0 auto',
     minWidth: '320px',  
-    maxWidth: '80%',
+    maxWidth: '60%',
     background: '#D8EFD3',
     boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.3)',
     backdropFilter: 'blur(3px)',
