@@ -1,7 +1,7 @@
-import React from 'react'
-import TodoItem from './TodoItem'
+import React from 'react';
+import TodoItem from './TodoItem';
 
-const Todos = ({ todos, toggleCompleted, deleteTodo }) => {
+const Todos = ({ todos, toggleCompleted, deleteTodo, editTodo }) => {
   return (
     <div style={styles.container}>
       {todos.map((todo) => (
@@ -10,17 +10,18 @@ const Todos = ({ todos, toggleCompleted, deleteTodo }) => {
           todo={todo}
           toggleCompleted={toggleCompleted}
           deleteTodo={deleteTodo}
+          editTodo={editTodo}  // Meneruskan fungsi editTodo
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
 const styles = {
   container: {
     width: '40%',
     margin: '0 auto',
   },
-}
+};
 
-export default Todos
+export default Todos;

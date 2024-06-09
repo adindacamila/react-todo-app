@@ -40,17 +40,21 @@ const TodoForm = ({ addTodo }) => {
 
 const styles = {
   container: {
-    marginBottom: '32px',
+    marginBottom: '20px',
   },
   formInput: {
-    height: '66px',
-    width: '40%',
+    height: '40px',
+    width: '30%',
     fontSize: '16px',
+    fontFamily: 'Times New Roman', 
     padding: '0 16px',
+    marginRight:'10px',
   },
   button: {
-    height: '72px',
+    height: '42px',
     fontSize: '16px',
+    fontFamily: 'Times New Roman', 
+    backgroundColor: '#F7B787',
   },
 };
 
